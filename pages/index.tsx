@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Image src="/vercel1.png" alt="error image" />
+      <Image src="/vercel1.png" alt="error image"  width={72} height={16}/>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
