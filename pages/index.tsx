@@ -12,7 +12,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Image src="/vercel1.png" alt="error image"  width={72} height={16}/>
+      <Image src="/vercel1.png" alt="error image" width={72} height={16} />
+      <button onClick={() => { throw new Error('error from button') }}>
+        click to throw an error
+      </button>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
